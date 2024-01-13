@@ -1,0 +1,7 @@
+/* This CSS is used to create a responsive screen adjustment of the website */
+
+@media (max-width: 1080px) {
+    .header,.about-content{
+        font-size: 1.5rem;
+    }
+}

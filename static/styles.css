@@ -1,0 +1,575 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+body {
+    margin: 0;
+    font-family: Product Sans;
+}
+
+/* Define a common style for sections */
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+/* Nav bar */
+.header {
+    background: rgba(0, 0, 0, 0);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 1.5rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-size: 2rem;
+}
+
+#lg {
+    color: #eba31f;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+}
+
+.links li {
+    margin: 0 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #eba31f;
+    font-weight: bold;
+}
+
+.links a.active {
+    color: #000000; /* White color for active page */
+}
+
+/* Apply background images to each section */
+#home {
+    background: url('/assets/img/home/Home_BG.png') center/cover no-repeat;
+}
+
+#about {
+    background: url('/assets/img/about/About_Us_BG.png') center/cover no-repeat;
+}
+
+#about1 {
+    background: url('/assets/img/about/What_Sets_Us_Apart_BG.png') center/cover no-repeat;
+}
+
+#about2 {
+    background: url('/assets/img/about/Lets_Create_Together_BG.png') center/cover no-repeat;
+}
+
+#about3 {
+    background: url('/assets/img/about/What_Sets_Us_Apart_BG.png') center/cover no-repeat;
+}
+
+#about4 {
+    background: url('/assets/img/about/Lets_Create_Together_BG.png') center/cover no-repeat;
+}
+
+#sample {
+    background: url('/assets/img/services/Services_BG.png') center/cover no-repeat;
+}
+
+#workflow {
+    background-image: url('assets/img/workflow/Workflow_BG.png');
+}
+
+#services {
+    background: url('/assets/img/services/Services_BG.png') center/cover no-repeat;
+}
+
+#contact {
+    background: url('/assets/img/contact/Contact_Us_BG.png') center/cover no-repeat;
+}
+
+/* Add other section styles as needed */
+
+
+.home{
+  
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 95vh;
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hm1{
+    margin: 15px;
+    padding: 30px;
+    font-size: 2rem;
+
+}
+
+.txt1{
+      text-align: left;
+      color: orange;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+.txt2{
+    text-align: left;
+}
+
+.emp{
+    background-color: #dddddd00;
+    border: 1px solid #fff;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.emp:hover {
+    background-color: rgb(238, 187, 94);
+}
+
+.fill{
+    background-color: rgb(255, 166, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 25px;
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.fill:hover {
+    background-color:  rgb(206, 149, 44);
+}
+
+
+/* About Section styles */
+
+.about-content {
+    display: flex;
+    align-items: center;
+    width: 1360px;
+    margin: 0 auto;
+    justify-content: space-between;
+    /* background-color: #000000; */
+}
+
+
+.about-image {
+    flex: 1;
+    position: absolute;
+    top: 1060px;
+    left: 0px;
+    margin-right: 20px;
+}
+
+#about-img1 {
+    max-width: 750px;
+    max-height: auto;
+}
+
+.about-txt {
+    display: block;
+    width: 600px;
+    left: 900px;
+    position: absolute;
+}
+
+#about-h1 {
+    text-align: left;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #eba31f;
+}
+
+#about-p {
+    font-size: 1.8rem;
+    text-align:justify;
+    color: black;
+    margin: 1px;
+}
+
+.about-button{
+    text-align: right;
+}
+
+
+/* Workflow Section styles */
+#workflow {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: auto;
+    height: 420px;
+    margin: 0 auto;
+    background: rgb(254,237,217);
+    background: linear-gradient(90deg, rgba(254,237,217,0.9304096638655462) 65%, rgba(0,212,255,0) 100%);
+}
+
+.workflow-content {
+
+    width: fit-content;
+    display: flex;
+    background-color: black;
+
+}
+
+.txt-workflow {
+    top: 6750px;
+    left: 400px;
+    position: absolute;
+    width: 600px;
+    height: auto;
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.workflow-content h1 {
+    margin: 1px;
+    margin-bottom: -0.5em;
+    font-size: 3rem;
+    text-align: left;
+}
+
+.workflow-content p {
+
+    text-align: left;
+    font-size: 2.5rem;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: -1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.img-workflow {
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 6730px;
+}
+
+.img-workflow img {
+    margin-left: 1em;
+    width: 300px;
+    height: auto;
+}
+
+/* product images */
+
+#pd1 {
+    /* width: auto;
+    height: 950px; */
+    width: 1920px;
+    height: 1000px;
+}
+#pd2 {
+    /* width: auto;
+    height: 950px; */
+    width: 1950px;
+    height: 990px;
+}
+span {
+    margin : 5px;
+}
+
+/* Services */
+
+/* Services */
+
+#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.services1 {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-right: 800px;
+    text-align: left;
+} 
+
+
+#services-text1 { /* Our Services */
+    color: #FFBA5C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    line-height: 49px;
+}
+
+#services-text2 {
+    color: #ffff;
+    font-family: Bree Serif;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 32px;
+    width: 100%; /* Make the width 100% to ensure responsiveness */
+}
+
+#services-text3 {
+    color: #ffff;
+    font-family: Bree Serif;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 41px;
+    width: 100%; /* Make the width 100% to ensure responsiveness */
+}
+
+#gallery-container {
+    padding: 15px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.199);
+    border-radius: 1px;
+    /* border: 0.5px solid orange; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px; /* Adjust the width as needed */
+    margin: 0 auto;
+}
+
+#services-img {
+    display: flex;
+    align-items: center;
+}
+
+#services-img img {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
+    margin: 0 10px;
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+}
+
+/* products */
+
+
+#sample {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 1080;
+}
+
+.sample1 {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-right: 800px;
+    text-align: right;
+} 
+
+
+#sample-text1 { /* Our Services */
+    color: #FFBA5C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    line-height: 49px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+#sample-text2 {
+    color: #ffff;
+    font-family: Bree Serif;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 32px;
+    width: 100%; /* Make the width 100% to ensure responsiveness */
+}
+
+#sample-text3 {
+    color: #ffff;
+    font-family: Bree Serif;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 41px;
+    width: 100%; /* Make the width 100% to ensure responsiveness */
+}
+
+#gallery-container1 {
+    padding: 15px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.199);
+    border-radius: 1px;
+    /* border: 0.5px solid orange; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px; /* Adjust the width as needed */
+    margin: 0 auto;
+}
+
+#sample-img {
+    display: flex;
+    align-items: center;
+}
+
+#sample-img img {
+
+    max-width: 100%;
+    height: auto;
+    max-height: 250px;
+    margin: 0 10px;
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+}
+
+
+/* Your existing styles remain unchanged */
+
+#contact {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-image img {
+    width: 800px;
+    margin-right: 45px;
+    height: auto;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 700px; /* Limiting the width for better readability on larger screens */
+    /* background-color: #000000; */
+    margin: 100px auto; /* Centering the form horizontally */
+    padding: 20px; /* Adding some padding for better spacing */
+    box-sizing: border-box; /* Ensuring padding and border are included in the width */
+}
+
+.contact-form h2 {
+    color: #333;
+}
+
+.contact-form form {
+    display: grid;
+    gap: 10px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #131111; /* Set label color to white */
+    text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #000000;
+    border-radius: none; /* Increased border-radius for a softer look */
+    border: 1px solid #ffffff; /* Adding a white border for better visibility */
+}
+
+.contact-form input[type="submit"] {
+    background-color: #FFA500; /* Orange color for submit button */
+    color: #ffffff;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #FF8C00; /* Darker shade of orange on hover */
+}
+
+
+/* footer */
+footer {
+    background-color: #222; /* Light black background */
+    padding: 20px 0;
+    color: #fff; /* Text color */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust the size of the icons as needed */
+    height: auto;
+    margin: 15px;
+}
+
+/* floating icon */
+
+.floating-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #ecea40; /* Blue color, you can change it */
+    color: #111010; /* White color for the arrow */
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    display: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.floating-icon:hover {
+    background-color: #e6d27c; /* Darker blue on hover, you can change it */
+}
+
+#name,#email,#phone,#message,#file {
+    border: 1.5px solid rgba(58, 36, 36, 0.466);
+    border-radius: none;
+}
+

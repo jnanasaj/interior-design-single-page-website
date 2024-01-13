@@ -1,0 +1,50 @@
+
+/* About Section styles */
+.about2-content {
+    display: flex;
+    align-items: center;
+    width: 1360px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.about2-image {
+    flex: 1;
+    position: absolute;
+    top: 2950px;
+    left: 0px;
+    margin-right: 20px;
+    /* background-color: black; */
+    /* margin: 500px; */
+}
+
+#about2-img1 {
+    max-width: 750px;
+    /* height: auto; */
+    max-height: auto; /* Set the desired height */
+}
+
+.about2-txt {
+    display: block;
+    width: 600px;
+    left: 900px;
+    position: absolute;
+}
+
+#about2-h1 {
+    text-align: left;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #eba31f;
+}
+
+#about2-p {
+    font-size: 1.8rem;
+    text-align:justify;
+    color: black;
+    margin: 1px;
+}
+
+.about2-button{
+    text-align: left;
+}

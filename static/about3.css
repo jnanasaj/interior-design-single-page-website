@@ -1,0 +1,44 @@
+
+/* About Section styles */
+.about3-content {
+    display: flex;
+    align-items: center;
+    width: 1360px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.about3-image {
+    flex: 1;
+    position: absolute;
+    top: 3940px;
+    right: 0px;
+    margin-right: 20px;
+}
+
+#about3-img1 {
+    max-width: 750px;
+    max-height: auto;
+}
+
+.about3-txt {
+    display: block;
+    width: 750px;
+    right: 1000px;
+    position: absolute;
+    text-align: right;
+}
+
+#about3-h1 {
+    text-align: left;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #eba31f;
+}
+
+#about3-p {
+    font-size: 1.8rem;
+    text-align:justify;
+    color: black;
+    margin: 1px;
+}
